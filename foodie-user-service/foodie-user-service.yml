@@ -1,0 +1,13 @@
+# foodie-user-service 公共配置  
+
+# actuator  
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  security:
+    enabled: false
