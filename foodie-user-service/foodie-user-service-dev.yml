@@ -1,0 +1,12 @@
+# 数据库配置
+mariadb:
+  url: 'jdbc:mysql://local.docker.node1.com:3306/foodie-cloud-item?useUnicode=true&characterEncoding=UTF-8&autoReconnect=TRUE'
+  username: '{cipher}5ea573ace71a694d7d4314f4bc9a92747c8454c871d7704f14f130e04555f652'
+  password: '{cipher}f4822c67af7dd0589434aede534237d391694d52b6452d8233f5b16b3767c5e0'
+
+# 功能开关 - 开启/关闭 注册功能
+user-service:
+  registration:
+    disabled: true
+    
+# actuator
