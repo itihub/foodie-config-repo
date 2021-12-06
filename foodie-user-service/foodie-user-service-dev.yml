@@ -4,11 +4,11 @@
 #
 ############################################################
 mysql:
-  url: 'jdbc:mysql://local.docker.node1.com:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=TRUE'
+  url: jdbc:mysql://local.docker.node1.com:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=TRUE
   username: '{cipher}5ea573ace71a694d7d4314f4bc9a92747c8454c871d7704f14f130e04555f652'
   password: '{cipher}f4822c67af7dd0589434aede534237d391694d52b6452d8233f5b16b3767c5e0'
 redis:
-  host: 'local.docker.node1.com'
+  host: local.docker.node1.com
 
 
 ############################################################
