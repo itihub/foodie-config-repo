@@ -1,0 +1,17 @@
+# foodie-cart-service 公共配置  
+
+############################################################
+#
+# actuator endpoint 配置
+#
+############################################################
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  security:
+    enabled: false
